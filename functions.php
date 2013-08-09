@@ -89,7 +89,7 @@ function sandbox_theme_display( $active_tab = '' ) {
 					settings_fields( 'sandbox_theme_display_options' );
 					do_settings_sections( 'sandbox_theme_display_options' );
 					
-				} elseif( $active_tab == 'social_options' ) {
+				} else if( $active_tab == 'social_options' ) {
 				
 					settings_fields( 'sandbox_theme_social_options' );
 					do_settings_sections( 'sandbox_theme_social_options' );
